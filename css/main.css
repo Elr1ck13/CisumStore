@@ -1,0 +1,14 @@
+html{
+    --bgcolor:#333333;
+    --hgcolor:	#FFD700;
+    --primarycolor:#f1f0f0;
+    --secondarycolor: #008CBA;
+    --footerColor:#4b0a0a;
+    background-color: var(--bgcolor);
+}
+.navbar{
+    background-color: var(--secondarycolor);
+    margin: auto;
+    
+    
+}
