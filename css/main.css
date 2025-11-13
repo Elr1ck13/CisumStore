@@ -1,14 +1,67 @@
 html{
-    --bgcolor:#333333;
+    --bgcardscolor:#333333;
+    --bgcolor: #333333;
     --hgcolor:	#FFD700;
     --primarycolor:#f1f0f0;
     --secondarycolor: #008CBA;
-    --footerColor:#4b0a0a;
+    --footerColor:#3b3939;
     background-color: var(--bgcolor);
+    
+
 }
 .navbar{
+
     background-color: var(--secondarycolor);
-    margin: auto;
+    font-size: 1.5rem;
+    align-content: center;
     
+}
+.title{
+    background-color: var(--bgcolor);
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem;
+    color: var(--hgcolor);
+}
+
+h1,h3,h5, p,.text-muted{
+    color: var(--primarycolor);
+}
+div.bmain{
+    background-color: var(--bgcolor);
+
     
+}
+div#welcome{
+    padding: 2rem 0 2rem 0; 
+    img{
+        display: block;
+        height: 30rem;
+        width: 40rem;
+        margin: auto;
+        padding-top: 2rem;
+    }
+    p{
+        padding:2rem
+    }
+}
+#cardGroup{
+    border:var(--hgcolor) solid;
+    height:25rem;
+    padding: 2.em;
+}
+.card{
+    border: solid ;
+    background-color: var(--bgcolor);
+    img{
+        height: 10rem
+    };
+    a{
+        color: var(--hgcolor);
+    };
+}
+
+footer{
+    background-color: var(--footerColor);
+    color: var(--secondarycolor);
 }

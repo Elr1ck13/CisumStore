@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contacto.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark mx-auto">
         <div class="container-fluid">
@@ -14,10 +20,10 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link "  href="../index.html">Inicio</a>
+                        <a class="nav-link " href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./productos.html">Productos</a>
@@ -33,11 +39,55 @@
             </div>
         </div>
     </nav>
+    <main>
+        <!-- formulario -->
 
-    <!--  "hero part" -->
+        <div class="container-fluid px-0">
+            <section class="title">
+                <h2>¿Dudas y sugerencias?</h2>
+                <p>Escribenos y con gusto te atenderemos</p>
+
+            </section>
+            <div class=" formc mx-0">
+
+                <form>
+                    <!-- Nombre -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <input type="text" id="name" class="form-control" />
+                        <label class="form-label" for="name">Nombre<label>
+                    </div>
+
+                    <!-- Email -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <input type="email" id="email" class="form-control" />
+                        <label class="form-label" for="email">Email</label>
+                    </div>
+                    <!-- textarea -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <textarea name="comments" id="comments" class="form-control"></textarea>
+                        <label class="form-label" for="comments">Comentarios</label>
+
+                    </div>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="checkbox" checked />
+                        <label class="form-check-label" for="checkbox">
+                            Estoy de acuerdo con los terminos y condiciones
+                        </label>
+                    </div>
+
+                    <!-- boton -->
+                    <button data-mdb-ripple-init type="button" class="btn btn-warning btn-block mb-4">Enviar</button>
+                </form>
+            </div>
+            <!-- formulario -->
+
+        </div>
 
 
-    <!-- productos  -->
+    </main>
+
 
 
     <!-- Footer -->
@@ -46,7 +96,7 @@
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
             <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
+                <span>Nuestras redes sociales</span>
             </div>
             <div>
                 <a href="#" class="me-4 text-reset">
@@ -115,7 +165,8 @@
                         <p>
                             <img src="../assets/phonebw.png" alt="tel icon" width="30" height="30">
 
-                            + 52 5454545451</p>
+                            + 52 5454545451
+                        </p>
                     </div>
                     <!-- columna -->
                 </div>
@@ -127,7 +178,7 @@
         <!-- derechos -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
             <img src="../assets/freebw.png" alt="copyleft icon" width="30" height="30">
- 
+
             2025 ¿derechos?:
             <a class="text-reset fw-bold" href="../index.html">cisum.com</a>
         </div>
@@ -140,4 +191,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>

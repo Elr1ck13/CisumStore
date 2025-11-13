@@ -1,0 +1,18 @@
+.carousel{
+    padding: 1rem;
+    background-color: var(--bgcolor);
+}
+
+
+.carousel-item {
+    justify-content: center;
+    height: 35rem;
+
+}
+
+.carousel-item img {
+    width: auto; 
+    height: au;
+    max-width: none; 
+    object-fit: cover; 
+}
